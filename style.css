@@ -1,0 +1,93 @@
+*{margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url(login.jpeg)no-repeat center fixed ;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 5vh;
+	text-transform: uppercase;
+	padding: 0.5em;
+	text-align: center;
+	font-family:georgia ;
+}
+
+li{
+	list-style: none;
+	padding: 0.5em 0.25em;
+	font-weight: bold;
+}
+
+#navbar ul{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	border:0.5px solid;
+	border-radius: 5px;
+	background-color: green;
+	font-family: fantasy;
+	box-shadow: 0px 0px 5px;
+}
+
+#navbar li a:hover{
+   color: gold;
+}
+
+#navbar li :hover{
+  background-color: darkolivegreen;
+}
+
+#navbar a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+nav{
+	height: 5vh;
+	cursor: pointer;
+}
+
+.end{
+	margin-left: auto;
+}
+
+@media only screen and(max-width:600px){
+	nav{
+		font-size: 0.5em;
+	}
+}
+
+.mainnav{
+	position: sticky;
+	width: 100%;
+	top: 0;
+}
+
+aside{
+	float: left;
+}
+
+section{
+	float: left;
+}
+
+article{
+	float: left;
+}
+
+.me{margin-bottom: 1em}
+
+#mainbody{
+	height: 80vh;
+}
+
+footer{text-align: center;
+	height: 10vh;
+
+}
